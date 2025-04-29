@@ -33,6 +33,14 @@ const HomeScreen = () => {
                 onPress={() => navigation.navigate("Profile", {message: message})}
                 title="Go to profile"
             />
+            <Button
+                onPress={() => navigation.navigate("Chat", {message: message})}
+                title="Go to Chat"
+            />
+            <Button
+                onPress={() => navigation.navigate("Settings", {message: message})}
+                title="Go to Settings"
+            />
         </View>
     )
 }
